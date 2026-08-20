@@ -10,7 +10,9 @@
         h1 { font-size: 24px; margin-bottom: 10px; }
         p { color: #888; font-size: 14px; line-height: 1.5; }
         iframe { width: 100%; height: 320px; border: none; margin-top: 20px; background: white; border-radius: 8px; }
-        .btn { display: block; background: #fff; color: #000; text-decoration: none; padding: 12px; border-radius: 6px; font-weight: bold; margin-top: 15px; }
+        .qr-box { margin-top: 20px; background: #fff; padding: 15px; border-radius: 8px; display: inline-block; }
+        .qr-box img { max-width: 100%; height: auto; width: 250px; }
+        .price { font-size: 20px; color: #00ff66; font-weight: bold; margin-top: 15px; }
     </style>
 </head>
 <body>
@@ -18,11 +20,17 @@
         <h1>HỆ THỐNG TÀI SẢN SỐ</h1>
         <p>Giải pháp tối giản hóa quy trình vận hành và tạo lập dòng tiền tự động 100%.</p>
         
-        <!-- MÃ SUBSTACK CHUẨN XÁC ĐÃ ĐƯỢC TÍCH HỢP -->
-        <iframe src="https://nt12946088.substack.com/embed" style="border: 1px solid #EEE; background: white" frameborder="0" scrolling="no"></iframe>
+        <!-- MÃ SUBSTACK ĐÃ KẾT NỐI -->
+        <iframe src="https://substack.com" frameborder="0" scrolling="no"></iframe>
         
-        <!-- Thay LINK_THANH_TOAN bằng link thanh toán của bạn ở bước sau -->
-        <a href="https://img.vietqr.io/image/VCB-1070070958-compact2.png" class="btn">MUA NGAY - TẢI TỰ ĐỘNG</a>
+        <p class="price">GIÁ SỞ HỮU: 199.000 Đ</p>
+        
+        <!-- MÃ QR MOMO ẨN DANH ĐÃ TÍCH HỢP SỐ ĐIỆN THOẠI CỦA BẠN -->
+        <div class="qr-box">
+            <p style="color:#000; font-weight:bold; margin-top:0; font-size:14px;">QUÉT MÃ MOMO ĐỂ NHẬN FILE</p>
+            <img src="https://qrserver.com" alt="Thanh Toan MoMo">
+        </div>
+        <p style="font-size:12px; color:#666; margin-top:10px;">Lưu ý: Hệ thống tự động gửi file qua Email Substack sau 1 phút.</p>
     </div>
 </body>
 </html>
